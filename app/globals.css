@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+/* * {
+  border: 1px solid red;
+} */
+
+.code {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: black;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+a {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      to right,
+      hsl(150, 100%, 60%),
+      hsl(210, 100%, 60%)
+    ),
+    linear-gradient(
+      to right,
+      hsl(210, 100%, 60%),
+      hsl(150, 100%, 60%)
+    
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+
+}
+
+.gradient {
+  /* background: radial-gradient(
+    hsl(150 100% 60%), 
+    hsl(200 100% 60%) 
+  ) fixed; */
+  background: linear-gradient( to left,
+    hsl(210 100% 60%),
+    hsl(150 100% 60%)
+    /* hsl(210 100% 60%) */
+  ) ;
+  /* background: 
+    radial-gradient(
+     at center, #3498db, #9b59b6
+    ); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
