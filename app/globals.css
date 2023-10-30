@@ -13,7 +13,23 @@
   border-radius: 10px;
   width: 100%;
   background-color: black;
+color: white;
+}
+.line {
+  width: 3px;
+  border-radius: 2px;
+  height: 60px; /* Adjust the height to your desired value */
+  background: white;
+  margin: 0 auto;
+}
 
+.bgblur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {

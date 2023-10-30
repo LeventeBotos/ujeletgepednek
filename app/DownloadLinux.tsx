@@ -3,9 +3,12 @@ import Image from "next/image";
 
 const DownloadLinux = () => {
   return (
-    <div className="flex flex-col  gap-3 items-start">
+    <div
+      id="linux"
+      className="flex flex-col bg-[#f5f5f5] dark:bg-[#1f1f1f] rounded-lg gap-3 p-3 items-start w-full"
+    >
       <p className="gradient text-xl md:text-2xl font-bold">
-        1. Az Új Operációs Rendszer Letöltése
+        Az Új Operációs Rendszer Letöltése
       </p>
       <p>
         Ebben az útmutatóban Linux-ot fogunk használni. A Linux egy OS, mint a
@@ -16,7 +19,7 @@ const DownloadLinux = () => {
         kezdőknek. Azt fogjuk letölteni.
       </p>
       <p className="text-xl md:text-2xl self-start font-semibold">
-        1.1 ISO megszerzése
+        1. ISO megszerzése
       </p>
       <img
         src="/downloadubuntu.png"
@@ -30,7 +33,7 @@ const DownloadLinux = () => {
         22.04.3 Server.
       </p>
       <p className="text-xl md:text-2xl self-start font-semibold">
-        1.2 ISO Feltöltése USB-re
+        2. ISO Feltöltése USB-re
       </p>
       <img
         src="/downloadetcher.png"
@@ -58,7 +61,7 @@ const DownloadLinux = () => {
         és nyomd meg hogy &quot;Flash&quot;!
       </p>
       <p className="text-xl md:text-2xl self-start font-semibold">
-        1.3 Boot Az Ubuntu-ba
+        3. Boot Az Ubuntu-ba
       </p>
       <p>
         Tedd be a szervernek szánt kompútered USB portjába a Flash drive-ot,
