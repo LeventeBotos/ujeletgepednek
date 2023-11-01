@@ -32,7 +32,7 @@ const Navbar = () => {
   //   };
   // }, []);
   return (
-    <nav className="fixed top-0 right-0 h-full px-1 flex flex-col justify-evenly md:bg-white dark:md:bg-[#111111] gap-3 p-1 md:w-1/12 w-1/6 text-white">
+    <nav className="fixed top-0 right-0 h-full px-1 flex flex-col gap-3 md:bg-white dark:md:bg-[#111111] pt-10 p-1 md:w-1/12 w-1/6 text-white">
       <div
         className={`${
           isOpen ? "opacity-100" : "opacity-0"
@@ -123,7 +123,7 @@ const Navbar = () => {
         } ease-in-out md:hidden duration-500 w-12 h-12 text-5xl bottom-20 self-center`}
       >
         {/* {isOpen ? <IoIosArrowForward /> : <IoIosArrowBack />} */}
-        <IoIosArrowBack />
+        <IoIosArrowBack className="" />
         {/* close */}
       </button>
     </nav>

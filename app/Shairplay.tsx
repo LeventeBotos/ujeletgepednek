@@ -9,6 +9,44 @@ const Shairplay = () => {
       <p className="gradient text-xl md:text-2xl font-bold">
         Shairport-Sync, egy AirPlay hangszóró létrehozása
       </p>
+      <p>
+        Shairport Sync lehetővé teszi bármilyen számítógép vagy eszköz számára,
+        hogy AirPlay-képes hangforrássá váljon, így könnyedén lehet zenét,
+        podcasteket, hangoskönyveket és egyéb audiotartalmakat vezeték nélküli
+        úton továbbítani más AirPlay-képes eszközök felé. Ez lehetővé teszi az
+        iOS vagy macOS eszközök (például iPhone, iPad vagy Mac) számára, hogy
+        vezeték nélküli streaming szolgáltatást nyújtsanak AirPlay-képes
+        eszközökkel.
+      </p>
+      <h3>Főbb jellemzők és felhasználási lehetőségek:</h3>
+      <ul className="pl-5 list-disc">
+        <li>
+          <strong>Vezeték nélküli hangszórók:</strong> Shairport Sync
+          segítségével bármelyik hangszóró vagy erősítő AirPlay-képesvé válhat,
+          és lehetővé teszi vezeték nélküli hangstreaminget okostelefonról vagy
+          számítógépről.
+        </li>
+        <li>
+          <strong>Multiroom audiostreaming:</strong> Több Shairport
+          Sync-kompatibilis eszköz segítségével több helyiségben is egyszerre
+          lejátszható a hang, létrehozva egy multiroom hangrendszer.
+        </li>
+        <li>
+          <strong>Zene megosztás:</strong> Egyszerűen megosztható zene az
+          eszközök között, lehetővé téve több felhasználó számára a zenék
+          AirPlay-képes hangszórókon való közvetítését.
+        </li>
+        <li>
+          <strong>Különböző platformokon való futtatás:</strong> Shairport Sync
+          számos operációs rendszeren működik, beleértve a Linuxot és a
+          Raspberry Pi-t.
+        </li>
+        <li>
+          <strong>Nyílt forráskód:</strong> Shairport Sync egy nyílt forráskódú
+          projekt, ami lehetőséget nyújt a fejlesztők számára a szoftver
+          testreszabására és bővítésére saját igényeik szerint.
+        </li>
+      </ul>
       <p>Le kell tölteni a szükséges csomagokat a Shairport-sync-hez:</p>
       <div className="code gap-2 flex">
         <p className=" select-none">$ </p>{" "}

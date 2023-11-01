@@ -12,7 +12,7 @@ const DownloadLinux = () => {
       </p>
       <p>
         Ebben az útmutatóban Linux-ot fogunk használni. A Linux egy OS, mint a
-        Windows, csak más dolgokra van használva legtöbbször, szerverekre.
+        Windows, csak más dolgokra van használva, legtöbbször szerver ként.
       </p>
       <p>
         A Linuxnak nagyon sok verziója elérhető, de én az Ubuntu-t ajánlom a
@@ -82,6 +82,9 @@ const DownloadLinux = () => {
         amíg megjelenik a boot menü, majd válassza ki azt a meghajtót, amin az
         Ubuntu telepítő média található.
       </p>
+      <p className="text-xl md:text-2xl self-start font-semibold">
+        4. Ubuntu konfigurálása
+      </p>
       <p className="self-start">
         Válaszdd ki a nyelvet, amin szeretnéd hogy végigmenjen a telepítésen és
         kövesd a konfiguráció lépéseit.
@@ -129,8 +132,8 @@ const DownloadLinux = () => {
         className="rounded-lg"
       />
       <p>
-        Ilyenkor mindig ajánlott egy frissítés-check, amit a következő parancsal
-        lehet futtatni:
+        Ilyenkor mindig ajánlott egy frissítés ellenőrzés, amit a következő
+        parancsal lehet futtatni:
       </p>
       <div className="code gap-2 flex">
         <p className=" select-none">$ </p>{" "}
